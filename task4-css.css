@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #f8f9fa;
+  padding: 5px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Home Section Styles */
+#home {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#home h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-style:italic;
+  color:black;
+  text-decoration:underline;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Services Section Styles */
+#services {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+
+}
+
+#services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color:chocolate;
+  text-decoration:underline;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-title{
+	color:gray;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  fill: #007bff;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 80px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+    color:chocolate;
+  text-decoration:underline;
+}
+
+.contact-info {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  fill: #333;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+#testimonials {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+    color:chocolate;
+  text-decoration:underline;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+#about {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
